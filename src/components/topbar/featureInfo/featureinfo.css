@@ -1,0 +1,37 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex: 1;
+    width: 150px;
+    height: 100px;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 14px 8px 37px 1px rgba(0,0,0,0.42); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 14px 8px 37px 1px rgba(0,0,0,0.42);
+}
+
+.featuredTitle{
+    font-style: 20px;
+}
+
+.featuredContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredFS{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredRate{
+    font-style: 15px;
+    color: grey;
+}

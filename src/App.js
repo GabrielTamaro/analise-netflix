@@ -20,16 +20,17 @@ function App() {
       <Topbar/>
       <div className="container">
         <Sidebar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/brasil" element={<Brasil/>}/>
-          <Route path="/eua" element={<Eua/>}/>
-          <Route path="/india" element={<India/>}/>
-          <Route path="/reino" element={<Reino/>}/>
-          <Route path="/japao" element={<Japao/>}/>
-          <Route path="/coreia" element={<Coreia/>}/>
-        </Routes>
-        <div className="others"></div>
+        <div className="infos">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/brasil" element={<Brasil/>}/>
+            <Route path="/eua" element={<Eua/>}/>
+            <Route path="/india" element={<India/>}/>
+            <Route path="/reino" element={<Reino/>}/>
+            <Route path="/japao" element={<Japao/>}/>
+            <Route path="/coreia" element={<Coreia/>}/>
+          </Routes>
+        </div>
       </div>
     </Router>
   );
